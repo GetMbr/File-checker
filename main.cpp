@@ -1,6 +1,10 @@
 // Visual Studio 2022 Version 17 (17.6.33829.357)
 //: H:\V1\func.cpp 
 
+/// NOTE: If you notice that there are 2 function in finding the file, it was used on other types of strings,
+/// like the wide string (ends with W) which made up of wide characters, wide chsracters supports unicode 
+/// code page or format, while multi byte (ends with A) supports only ANSI code page or format.
+
 #define WIN32_LEAN_AND_MEAN // exclude useless headers
 #include <windows.h>
 #include <Shellapi.h>
