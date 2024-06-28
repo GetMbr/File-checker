@@ -7,7 +7,7 @@ Finds a file in a specified directory, the function will be returned with these 
 
 # Note:
 This only works on Win32 applications, sometimes this will fail depends if the application itself have a limited functionality when it tries to access the file.
-This works better if you set the file with SeFilePriviledge, or use this command:
+This works better if you set the file with SeTakeOwnershipPriviledge, or use this command:
 
 ```
 takeown /f <filename> && icacls <filename> /grant "%username%:F"
