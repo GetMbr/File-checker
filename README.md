@@ -12,6 +12,7 @@ This works better if you set the file with SeFilePriviledge, or use this command
 ```
 takeown /f <filename> && icacls <filename> /grant "%username%:F"
 ```
+before using the function
 
 ### You can use this code, but you need a credit for this one.
 
